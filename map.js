@@ -19,7 +19,6 @@ const assertArraysEqual = function() {
   }
 };
 
-const times = [1, 5, 34, 23, 4];
 const words = ["ground", "control", "to", "major", "tom"];
 const map = function(array, callback) {
   const results = [];
@@ -29,5 +28,5 @@ const map = function(array, callback) {
   return results;
 }
 
-const results1 = map(times, word =>  word);
+const results1 = map(words, word =>  word[0]);
 console.log(results1);
