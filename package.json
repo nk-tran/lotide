@@ -1,12 +1,12 @@
 {
-  "name": "lotide",
+  "name": "@nktran4/lotide in",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide project",
   "main": "assertArraysEqual.js",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.6",
-    "mocha": "^9.2.2"
+    "mocha": "^9.2.2" 
   },
   "scripts": {
     "test": "mocha"
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/nktrancs/lotide.git"
   },
-  "author": "",
+  "author": "name : Nhan Tran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nktrancs/lotide/issues"

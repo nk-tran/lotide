@@ -1,23 +1,23 @@
-const eqArrays = function (a ,b) {
-  if (a.length === b.length) {
-    for (let i = 0; i < a.length; i++){
-      if (a[i] !== b[i]) {
-        return false;
-      }       
-    }
-    return true;
-  } else {
-    return false;
-  }
-}
+// const eqArrays = function (a ,b) {
+//   if (a.length === b.length) {
+//     for (let i = 0; i < a.length; i++){
+//       if (a[i] !== b[i]) {
+//         return false;
+//       }       
+//     }
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-const assertArraysEqual = function() {
-  if (eqArrays) {
-    console.log(`✅✅✅`);
-  } else {
-    console.log(`🛑🛑🛑`);
-  }
-}
+// const assertArraysEqual = function() {
+//   if (eqArrays) {
+//     console.log(`✅✅✅`);
+//   } else {
+//     console.log(`🛑🛑🛑`);
+//   }
+// }
 
 const letterPositions = function(sentence) {
   const results = {};
@@ -34,6 +34,6 @@ const letterPositions = function(sentence) {
   
 
 
+module.exports = letterPositions
 
-
-  console.log(letterPositions("hello"))
+  // console.log(letterPositions("hello"))
